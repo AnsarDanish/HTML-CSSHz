@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0;}
+body{
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+.row{
+    display: flex;
+}
+.center{
+    text-align: center;
+}
+
+button {
+    margin-left: 40%;
+}
+.img-fluid{
+    max-width: 100%;  /* max width means i dont want to enlarge my image size but if div size gets reduce so images must also reduce */
+}
+/* divice size must be 1200px then only background color exicute*/
+@media only screen and (min-width:1200px) {
+/*    body{
+    background-color:  gray;
+   } */
+   .container{
+    width: 1200px;
+    margin: auto;
+    height: 250px;
+   }
+   .col-xxl-3{
+    width: 25%;
+   }
+}
+
+@media only screen and (max-width:575px) {
+  
+/*    .container{
+    width: 1200px;
+    margin: auto;
+    height: 250px;
+   }
+   .col-xxl-3{
+    width: 25%;
+   } */
+   .container{
+    width: 98%;
+    margin: auto;
+   
+   }
+   .col-xs-6{
+     width: 50%;
+   }
+
+}

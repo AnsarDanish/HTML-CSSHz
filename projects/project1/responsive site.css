@@ -1,0 +1,13 @@
+.set img{
+    width: 100%;
+    height: 500px;
+}
+.edit img{
+    width: 400px !important;
+    height: 400px !important;
+}
+.edits img{
+    width: 300px !important;
+    height: 300px !important;
+}
+

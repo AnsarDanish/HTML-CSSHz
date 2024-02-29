@@ -1,0 +1,43 @@
+/* why total column is 12 ?*/
+
+/*bcoz 12 is divsible by so many numbers thats why we take total column =12  */
+*{margin: 0;}
+ul{list-style: none;}
+.container{
+    margin: auto;
+    width: 1200px;
+    
+}
+/* total column==12 */
+/*we need 6 colmn..........6/12*100=========width in percentage */
+.col-6{
+    width: 50%;
+}
+.row{
+    display: flex;
+}
+/* total column==12 */
+/*we need 4 colmn..........4/12*100=========width in percentage */
+.col-4{
+    width: 33.33%;
+}
+/* total column==12 */
+/*we need 2 colmn..........2/12*100=========width in percentage */
+.col-2{
+    width: 16.666%; 
+}
+/* total column==12 */
+/*we need 1 colmn..........1/12*100=========width in percentage */
+.col-1{
+    width: 8.3333%; 
+}
+/* total column==12 */
+/*we need 3 colmn..........3/12*100=========width in percentage */
+.col-3{
+    width: 25%; 
+}
+/* total column==12 */
+/*we need 5 colmn..........5/12*100=========width in percentage */
+.col-5{
+    width:41.66666%; 
+}

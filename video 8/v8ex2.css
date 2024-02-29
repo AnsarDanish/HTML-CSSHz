@@ -1,0 +1,35 @@
+.c1{
+  padding-top: 10px;
+}
+.c2 img{
+  width: 300px;
+  height: 250px;
+}
+
+.c3{
+   
+  margin-top: 10px;
+}
+
+.c4 {
+   margin-top: 110px;
+}
+.hov  a{
+       color: #666  ;
+};
+.hov  a:hover{
+  color: black !important;
+};
+.right{
+
+  padding-right: 20px !important;
+}
+.footer{
+  background-color: #eae7e7;
+
+}
+.register li{
+      padding-top: 5px;
+      padding-bottom: 5px ;
+      
+}

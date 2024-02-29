@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    color: cornsilk;
+    /* border: solid red; */
+   /*  margin: auto; */
+    font-size: 30px;
+   /*  display: flex; */
+   
+   
+}
+*{margin: 0;}
+.container{
+  /*   border: solid red; */
+     width :1200px;
+/*     height: 100px; */
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+
+}

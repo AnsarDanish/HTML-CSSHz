@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;}
+.container{
+    width: 1000px;
+    margin: auto;
+    line-height: 2;
+    padding: 20px 0;
+    font-size: 40px;
+}
+.blackbox{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; 
+    position: fixed;  
+    background: rgba(0,0,0,0.2);/* 1 is maximum alpha values means 1 is pure black and 0.5 is half black*/
+}
+.modalbox{
+    width: 600px;
+    height: 500px;
+     left: 0;
+    top: 0; 
+    position: fixed;
+    padding: 40px;
+    font-size: 30px;
+    margin: auto;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: 200px;
+}

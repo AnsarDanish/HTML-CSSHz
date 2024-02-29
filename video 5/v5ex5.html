@@ -1,0 +1,61 @@
+<!-- color on every alphabet using span tag -->
+<h1>
+    <span>G</span><span>O</span><span>O</span><span>G</span><span>L</span><span>E</span>
+</h1>
+
+<div class="head">
+  <h5>List Of Element</h5>
+    <ul >
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+        <li>hello world</li>
+    </ul>
+</div>
+<STyle>
+    h1{
+        font-size: 100px;
+        text-align: center;
+        padding-top: 300px;
+    }
+  /*   h1 span:nth-child(1){
+        color: red;
+    } */
+    h1 span:first-child {
+        /* same as last */
+        color: red;
+    }
+    h1 span:nth-child(2){
+        color: rgb(65, 77, 212);
+    }
+    h1 span:nth-child(3){
+        color: brown ;
+    }
+    h1 span:nth-child(4){
+        color: rgb(0, 255, 21);
+    }
+    h1 span:nth-child(5){
+        color: yellow;
+    }
+    h1 span:nth-child(6){
+        color: crimson;
+    }
+    
+    .head{
+        font-size: 50px;
+      position: absolute; 
+      top: 200px;
+    
+    }
+    .head li:nth-child(2n)
+    {
+        background-color: brown;
+    }
+    .head li:nth-child(2n+1)
+    {
+        background-color: rgb(104, 63, 63);
+    }
+    
+</STyle>
